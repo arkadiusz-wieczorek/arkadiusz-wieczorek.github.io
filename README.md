@@ -1,1 +1,0 @@
-# arkadiusz-wieczorek.github.io
