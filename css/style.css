@@ -74,6 +74,9 @@ a{
 	position: relative;
 }
 
+section[name="contact"]{
+	text-align: center;
+}
 
 .photo {
     height: 10rem;
@@ -104,6 +107,10 @@ a{
 	margin-top: 0;
 	margin-bottom: 1rem;
 	vertical-align: middle;
+}
+
+.item:nth-child(1), .item:nth-child(2){
+	width: 100%;
 }
 
 .item i{
