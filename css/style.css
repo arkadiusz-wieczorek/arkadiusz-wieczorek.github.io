@@ -100,7 +100,6 @@ section[name="contact"]{
 	font-weight: 300;
 }
 .item {
-	/*width: 1.6rem;*/
 	height: 1rem;
 	text-align: center;
 	margin: 0.4rem;
@@ -113,6 +112,11 @@ section[name="contact"]{
 	vertical-align: baseline;
 	font-size: 0.9rem;
 }
+
+.item a{
+	white-space: nowrap;
+}
+
 
 .item demo-icon icon-linkedin{
 	vertical-align: sub;
