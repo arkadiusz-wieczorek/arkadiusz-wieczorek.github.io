@@ -39,7 +39,7 @@ h1, h2{
 
 h1{
 	line-height: 2rem;
-	margin-top: 2rem;
+	margin-top: 1rem;
 	font-size: 2rem;
 }
 
@@ -128,7 +128,7 @@ section[name="contact"]{
 }
 
 .wrapper {
-	padding: 2rem 1rem 1rem 1rem;
+	padding: 1.5rem 1rem 1rem 1rem;
 	max-width: 28rem;
 	margin: 0 auto;
 	background-color: #fff;
