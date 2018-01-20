@@ -102,9 +102,7 @@ section[name="contact"]{
 .item {
 	height: 1rem;
 	text-align: center;
-	margin: 0.4rem;
-	margin-top: 0;
-	margin-bottom: 1rem;
+	margin: 0 0.25rem 1rem 0.25rem;
 	vertical-align: middle;
 }
 
