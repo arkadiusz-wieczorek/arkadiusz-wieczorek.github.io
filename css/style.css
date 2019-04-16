@@ -22,36 +22,36 @@ summary {
 	display: block;
 }
 
-
 body {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	color: #4d4d4d;
-	background-image: url('../img/bg.png');
+	background-image: url("../img/bg.png");
 	background-position: calc(50% + 0px) 0%;
 }
 
-h1, h2{
-	font-family: 'Open Sans Light';
+h1,
+h2 {
+	font-family: "Open Sans Light";
 	color: rgb(43, 38, 54);
 	font-weight: 100;
 	text-align: center;
 }
 
-h1{
+h1 {
 	line-height: 2rem;
 	margin-top: 1rem;
 	font-size: 2rem;
 }
 
-h2{
+h2 {
 	color: rgb(180, 180, 180);
 	font-size: 1.5rem;
 	line-height: 3rem;
 	margin-bottom: 1rem;
 }
 
-h3{
-	font-family: 'Open Sans Light';
+h3 {
+	font-family: "Open Sans Light";
 	color: rgb(43, 38, 54);
 	font-weight: 100;
 	text-align: center;
@@ -59,37 +59,36 @@ h3{
 	line-height: 3rem;
 	margin-top: 1rem;
 }
-p{
+p {
 	text-align: justify;
 	font-size: 1rem;
 	line-height: 1.6rem;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: rgb(60, 140, 180);
 }
 
-.content{
+.content {
 	position: relative;
 }
 
-section[name="contact"]{
+section[name="contact"] {
 	text-align: center;
 }
 
 .photo {
-    height: 10rem;
-    width: 10rem;
-    margin: 0 auto;
-    background-image: url("../img/arkadiusz-wieczorek.jpg	");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50%;
+	height: 10rem;
+	width: 10rem;
+	margin: 0 auto;
+	background-image: url("../img/arkadiusz-wieczorek.jpg	");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
 }
 
-
-.items{
+.items {
 	margin: 0 auto;
 	display: -webkit-flex;
 	-webkit-flex-wrap: wrap;
@@ -106,27 +105,26 @@ section[name="contact"]{
 	vertical-align: middle;
 }
 
-.item i{
+.item i {
 	vertical-align: baseline;
 	font-size: 0.9rem;
 }
 
-.item a{
+.item a {
 	white-space: nowrap;
 }
 
-
-.item demo-icon icon-linkedin{
+.item demo-icon icon-linkedin {
 	vertical-align: sub;
 }
 
-.item img{
+.item img {
 	width: 2.2rem;
 	height: 2.2rem;
 }
 
 .wrapper {
-	padding: 1.5rem 1rem 1rem 1rem;
+	padding: 2rem 1rem 1rem 1rem;
 	max-width: 28rem;
 	margin: 0 auto;
 	background-color: #fff;
@@ -140,8 +138,8 @@ ul.labels {
 	display: flex;
 }
 
-li{
-	background-color:HSL(0, 0%, 96%);
+li {
+	background-color: HSL(0, 0%, 96%);
 	display: inline-block;
 	list-style: none;
 	vertical-align: bottom;
@@ -156,41 +154,39 @@ li{
 }
 
 @media all and (max-width: 32rem) {
-	h1{
+	h1 {
 		font-size: 1.4rem;
 		line-height: 1rem;
 	}
 
-	h2{
+	h2 {
 		font-size: 1.2rem;
 	}
-	.photo{
+	.photo {
 		width: 8rem;
 		height: 8rem;
 	}
-	.wrapper{
+	.wrapper {
 		margin-left: 1rem;
 		margin-right: 1rem;
 	}
-	.items .item:nth-child(2) i{
+	.items .item:nth-child(2) i {
 		display: none;
 	}
-	.items .item:nth-child(2){
+	.items .item:nth-child(2) {
 		margin-left: 0;
 		margin-right: 0;
 		font-size: 0.9rem;
 		align-content: space-around;
 		width: 100%;
 	}
-	body{
+	body {
 		background-image: none;
 	}
 }
 
-
-@media all and (max-width: 19.3rem){
-	.items .item:nth-child(2){
+@media all and (max-width: 19.3rem) {
+	.items .item:nth-child(2) {
 		padding-bottom: 2rem;
 	}
-
 }
